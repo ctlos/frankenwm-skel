@@ -1,0 +1,1 @@
+# frankenwm-skel
