@@ -6,7 +6,8 @@ tint2 -c ~/.config/tint2/tray.tint2rc &
 ~/.config/frankenwm/polybar/launch.sh &
 sxhkd -c $HOME/.config/frankenwm/sxhkdrc &
 xsetroot -cursor_name left_ptr &
-nitrogen --restore &
+# nitrogen --restore &
+hsetroot -fill ~/.wall/qw.png &
 picom -b --config ~/.config/picom.conf &
 numlockx off &
 # redshift -c ~/.config/redshift.conf &
