@@ -68,10 +68,10 @@ static const AppRule rules[] = { \
  * window. The title of the scratchpad window should also match SCRPDNAME from
  * above
  */
-static const char *termcmd[] = { "urxvt",     NULL };
+static const char *termcmd[] = { "alacritty",     NULL };
 static const char *menucmd[] = { "rofi", "-show", "drun", NULL };
 // static const char *scrpcmd[] = { "xterm", "-T", "scratchpad", NULL };
-static const char *scrpcmd[] = { "urxvt", "-name", "scratchpad",  NULL };
+static const char *scrpcmd[] = { "alacritty", "--class", "scratchpad",  NULL };
 
 #define DESKTOPCHANGE(K,N) \
     {  MOD4,             K,              change_desktop, {.i = N}}, \

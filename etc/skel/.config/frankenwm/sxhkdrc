@@ -3,8 +3,8 @@
 #
 
 # show help on key bindings
-super + F1
-  urxvt -name Float -e $HOME/.config/frankenwm/show_keys
+super + alt + h
+  alacritty --class Float -e $HOME/.config/frankenwm/show_keys
 
 # program launcher rofi
 alt + d
@@ -20,7 +20,7 @@ alt + Return
 
 # terminal emulator findapp
 alt + t
-  sh -c "$HOME/.bin/findapp urxvt"
+  sh -c "$HOME/.bin/findapp alacritty"
 
 # firefox
 alt + w
@@ -28,7 +28,7 @@ alt + w
 
 # sublime text3
 alt + e
-  sh -c "$HOME/.bin/findapp subl3"
+  sh -c "$HOME/.bin/findapp Sublime_text"
 
 # thunar
 alt + f
@@ -40,7 +40,7 @@ alt + m
 
 # ranger
 alt + r
-  urxvt -name Ranger -e ranger
+  alacritty --class Ranger -e ranger
 
 # alt + c
 #   rofi -modi "clipboard:greenclip print" -show clipboard -run-command '{cmd}'
